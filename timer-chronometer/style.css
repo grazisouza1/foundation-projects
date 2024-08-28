@@ -19,7 +19,7 @@
     position: absolute;
 }
 
-#clock{
+#clock, .clock{
     padding: 30px 45px;
     display: flex;
     flex-direction: row;
