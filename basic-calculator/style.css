@@ -27,7 +27,7 @@ header{
     padding: 10px 50px;
     grid-template-columns: 1200px 300px;
     justify-content: end;
-    gap: 100px;
+    gap: 150px;
 }
 
 h1{
