@@ -23,8 +23,8 @@ header{
     display: grid;
     align-items: center;
     width: 100%;
-    margin: 10px 50px;
-    padding: 10px 50px;
+    margin: 10px 30px;
+    padding: 10px 30px;
     grid-template-columns: 1200px 300px;
     justify-content: end;
     gap: 150px;
