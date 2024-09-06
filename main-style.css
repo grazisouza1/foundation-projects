@@ -1,16 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 body, html{
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100vh;
     background-color: #151716;
     font-family: Lexend, Arial;
+    overflow-x: hidden;
+    cursor: url("./main-images/ponteiro-non-active.png");
+}
+
+header{
+    display: grid;
+    align-items: center;
+    width: 100%;
+    margin: 10px 50px;
+    padding: 10px 50px;
+    grid-template-columns: 1200px 300px;
+    justify-content: end;
+    gap: 100px;
 }
 
 h1{
@@ -19,6 +32,111 @@ h1{
     color: transparent;
     text-align: center;
     font-size: 3.5rem;
-    margin: 60px 20px 20px 20px;
+    margin: 20px;
     padding: 20px;
+}
+
+.social-medias{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.social-item{
+    color: white;
+    font-size: 30px;
+    position: relative;
+}
+
+.social-item:after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 50%;
+    background-color: white;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.social-item:hover:after{
+    width: 100%;
+    left: 0;
+}
+
+.social-item:hover{
+    opacity: 50%;
+    transition: linear 0.3s;
+}
+
+a{
+    cursor: pointer;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.card{
+    background-color: #080808;
+    color: #e1e1e1;
+    border-radius: 2rem;
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card-img{
+    border-radius: 1rem;
+    width: 25rem;
+    height: 12rem;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card-img:hover{
+
+}
+
+.title-card{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+
+button{
+    display: flex;
+    background: linear-gradient(#023e8a, #03045e);
+    border-radius: 2rem;
+    border: none;
+    color: #e1e1e1;
+    width: 300px;
+    height: 70px;
+    margin: 30px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Lexend;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    transform: translateY(-10px);
+    transition: linear 0.2s;
+    cursor: pointer;
+}
+
+.fa-arrow-up-right-from-square{
+    margin: 10px;
+    padding: 10px;
 }
