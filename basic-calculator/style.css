@@ -1,25 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 *{
+    box-sizing: border-box;
+}
+
+html, body{
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 body{
     background-color: #151716;
-    width: 100%;
     font-family: "Lexend";
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
+    overflow-y: hidden;
+}
+
+header{
+    display: grid;
+    align-items: center;
+    width: 100%;
+    margin: 10px 50px;
+    padding: 10px 50px;
+    grid-template-columns: 1200px 300px;
+    justify-content: end;
+    gap: 150px;
 }
 
 h1{
-    padding: 10px;
-    margin: 20px;
+    padding: 10px 10px 10px 110px;
+    margin: 10px 10px 10px 110px;
     color: #424769;
     font-size: 60px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.social-medias{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.social-item{
+    color: white;
+    font-size: 40px;
+    position: relative;
+}
+
+.social-item:after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 50%;
+    background-color: white;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.social-item:hover:after{
+    width: 100%;
+    left: 0;
+}
+
+.social-item:hover{
+    opacity: 50%;
+    transition: linear 0.3s;
+}
+
+a{
+    cursor: pointer;
 }
 
 #calculator{
