@@ -2,6 +2,7 @@
 
 *{
     box-sizing: border-box;
+    cursor: default;
 }
 
 body, html{
@@ -70,6 +71,10 @@ h1{
 .social-item:hover{
     opacity: 50%;
     transition: linear 0.3s;
+}
+
+.fa-brands{
+    cursor: pointer;
 }
 
 a{
