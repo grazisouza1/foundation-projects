@@ -175,3 +175,24 @@ button:hover{
         width: 250px;
     }
 }
+
+@media (max-width: 1024px){
+    header{
+        gap: 60px;        
+    }
+
+    .social-item{
+        font-size: 25px;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .card{
+        display: flex;
+        width: 25rem;
+    }
+}
