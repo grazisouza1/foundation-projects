@@ -92,7 +92,7 @@ a{
     background-color: #080808;
     color: #e1e1e1;
     border-radius: 2rem;
-    width: 30rem;
+    width: 28rem;
     height: 30rem;
     display: flex;
     flex-direction: column;
@@ -194,5 +194,30 @@ button:hover{
     .card{
         display: flex;
         width: 25rem;
+    }
+}
+
+@media (max-width: 768px){
+    header{
+        gap:
+    }
+
+    .social-medias{
+      padding: 20px;  
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .card{
+        width: 40rem;
+        height: 35rem;
+    }
+
+    .card-img{
+        width: 35rem;
+        height: 16rem;
     }
 }
