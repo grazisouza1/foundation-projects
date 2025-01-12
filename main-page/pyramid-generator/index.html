@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pyramid Generator</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pyramid Generator</h1>
+    </header>
+
+    <div class="errorDiv"></div>
+
+    <div class="nav-content">
+      <nav>
+        <h3 class="pyramidType" id="normalType">Normal</h3>
+        <h3 class="pyramidType" id="binaryType">Binary</h3>
+      </nav>
+    </div>
+
+    <div class="site-content">
+      <div class="input-div">
+        <label for="character">Type a character for building the pyramid</label>
+        <input id="character" type="text" placeholder="Type a character here" />
+
+        <label for="number">Type the number of levels</label>
+        <input id="number" type="text" placeholder="Type the number here" />
+        <button id="createPyramid">Show pyramid</button>
+      </div>
+
+      <div class="show-div">
+        <div id="pyramid">...</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
