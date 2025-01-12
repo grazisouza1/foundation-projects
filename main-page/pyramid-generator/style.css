@@ -70,12 +70,13 @@ header h1 {
 }
 
 .site-content {
-  width: 100%;
+  width: 80%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  margin: 50px;
+  margin: 40px;
   justify-content: space-around;
+  gap: 40px;
 }
 
 .input-div {
@@ -121,7 +122,7 @@ header h1 {
 }
 
 .show-div {
-  min-width: 300px;
+  min-width: 280px;
   min-height: 300px;
   background-color: var(--blue);
   display: flex;
@@ -135,4 +136,10 @@ header h1 {
   align-items: center;
   white-space: pre;
   color: var(--yellow);
+}
+
+@media screen and (min-width: 1024px) {
+  .site-content {
+    flex-direction: row;
+  }
 }
