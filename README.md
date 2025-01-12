@@ -1,6 +1,6 @@
 # Foundation Projects 📝
 
-Website link: <a href='[foundation-projects-gra.vercel.app](https://foundation-projects-gra.vercel.app)' target='_blank'>Foudation Projects</a>
+Website link: <a href='https://foundation-projects-gra.vercel.app' target='_blank'>Foudation Projects</a>
 
 ## Summary 
   - [Calculator](#calculator)
