@@ -7,6 +7,7 @@ Website link: <a href='https://foundation-projects-gra.vercel.app' target='_blan
   - [Random Letter Generator](#random-letter-generator)
   - [Chronometer](#chronometer)
   - [Quiz](#quiz)
+  - [Pyramid Generator](#pyramid-generator)
     <br>
 
 ## About The Project
@@ -33,6 +34,11 @@ Website link: <a href='https://foundation-projects-gra.vercel.app' target='_blan
 
 &nbsp;
 <img src='https://github.com/user-attachments/assets/5a7d8cc3-2234-44bd-bd4d-0f8ca9537853' width='600'/>
+
+### Pyramid Generator
+
+&nbsp;
+<img src="https://github.com/user-attachments/assets/64ce74a1-d058-4bd1-aa87-43d1f957a5fc" width='600'>
 
 ---
 
