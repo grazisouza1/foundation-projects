@@ -24,7 +24,7 @@ createPyramid.addEventListener("click", () => {
   pyramidDiv.innerHTML = buildPyramid(countInput, character);
 });
 
-// ERROR MESSAGE WHEN CLICKING ON BINARY TYPE
+// ERROR MESSAGE
 const pyramidType = document.querySelectorAll(".pyramidType");
 const binaryType = document.querySelector("#binaryType");
 const normalType = document.querySelector("#normalType");
