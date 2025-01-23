@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main: #59189a;
+}
+
 body {
   width: 100%;
   background-color: #151716;
@@ -22,7 +26,7 @@ header {
 }
 
 h1 {
-  background: linear-gradient(#023e8a, #03045e);
+  background: linear-gradient(#59189a, #320c58);
   background-clip: text;
   color: transparent;
   text-align: center;
@@ -115,7 +119,7 @@ a {
 
 button {
   display: flex;
-  background: linear-gradient(#023e8a, #03045e);
+  background: linear-gradient(#59189a, #320c58);
   border-radius: 2rem;
   border: none;
   color: #e1e1e1;
@@ -129,7 +133,7 @@ button {
 }
 
 button:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
   transition: linear 0.2s;
   cursor: pointer;
 }
